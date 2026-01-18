@@ -21,7 +21,7 @@ A simple Discord bot that uses AI (Groq Llama 3.1) to chat and create short URLs
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/discord-bot.git
+git clone https://github.com/ajaysoni12/discord-bot-ai-shortener.git
 cd discord-bot
 npm install
 ```
