@@ -1,0 +1,34 @@
+{
+  "name": "discord-bot",
+  "version": "2.0.0",
+  "description": "AI-powered Discord bot with Groq LLaMA 3.1 and URL shortening integration",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "register": "node commands.js",
+    "register:dev": "nodemon --exec npm run register",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "ai",
+    "groq",
+    "llama",
+    "url-shortener"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.25.1",
+    "dotenv": "^17.2.3",
+    "groq-sdk": "^0.37.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
